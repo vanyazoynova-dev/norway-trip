@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<title>Маршрут Пловдив – Hirtshals (Норвегия)</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/2.44.0/iconfont/tabler-icons.min.css">
+<style>
+  :root{
+    --surface-1:#F1EFE8;
+    --text-primary:#2C2C2A;
+    --text-secondary:#5F5E5A;
+    --text-accent:#185FA5;
+    --radius:8px;
+  }
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:#FAFAF7;
+    color:var(--text-primary);
+    max-width:860px;
+    margin:0 auto;
+    padding:24px 16px 48px;
+  }
+  h1{font-size:20px;font-weight:500;margin:0 0 4px}
+  .sub{font-size:14px;color:var(--text-secondary);margin:0 0 20px}
+  .t{font-size:14px;color:var(--text-primary)}
+  .ts{font-size:12px;color:var(--text-secondary)}
+  p{margin:0}
+  a{text-decoration:none}
+  .navbtn{display:inline-block;margin-top:4px;padding:8px 12px;border-radius:999px;background:#185FA5;color:white;font-size:12px;font-weight:600}
+  .navbtn:hover{filter:brightness(.95)}
+  @media(max-width:640px){body{padding:14px 10px 32px} h1{font-size:18px}.sub{font-size:13px}.navbtn{padding:9px 11px}.ts{font-size:11px}}
+  @media print{.navbtn{background:#185FA5!important;color:#fff!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+</style>
+</head>
+<body>
+
+<h1>Схема на пътуването</h1>
+<p class="sub">Пловдив &rarr; ферибот Hirtshals (Дания) &middot; 1 август 2026</p>
+
+<div id="map" style="width:100%;background:#DCEEFB;border-radius:12px;overflow:hidden"></div>
+
+<div style="display:flex;flex-wrap:wrap;gap:10px 16px;margin-top:10px;font-size:12px">
+<span style="display:flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:50%;background:#185FA5"></span>Ден 1 &middot; 805 км</span>
+<span style="display:flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:50%;background:#534AB7"></span>Ден 2 &middot; 522 км</span>
+<span style="display:flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:50%;background:#854F0B"></span>Ден 3 &middot; 391 км</span>
+<span style="display:flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:50%;background:#0F6E56"></span>Ден 4 &middot; 527 км</span>
+<span style="display:flex;align-items:center;gap:5px"><span style="width:10px;height:10px;border-radius:50%;background:#A32D2D"></span>Ден 5 &middot; 370 км</span>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:8px;margin-top:20px">
+
+<div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:var(--surface-1);border-radius:var(--radius)">
+<div style="width:28px;height:28px;border-radius:50%;background:#D3D1C7;display:flex;align-items:center;justify-content:center;flex-shrink:0"><span class="t" style="font-size:12px;font-weight:500;color:#2C2C2A">0</span></div>
+<i class="ti ti-flag" aria-hidden="true" style="font-size:18px;color:var(--text-secondary)"></i>
+<div style="flex:1;min-width:0">
+<p class="t" style="font-weight:500">Старт</p>
+<p class="ts">Пловдив, България</p>
+</div>
+</div>
+
+<div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:var(--surface-1);border-radius:var(--radius);border-left:3px solid #378ADD">
+<div style="width:28px;height:28px;border-radius:50%;background:#185FA5;display:flex;align-items:center;justify-content:center;flex-shrink:0"><span class="t" style="font-size:12px;font-weight:500;color:#E6F1FB">1</span></div>
+<i class="ti ti-bed" aria-hidden="true" style="font-size:18px;color:#185FA5"></i>
+<div style="flex:1;min-width:0">
+<p class="t" style="font-weight:500">Нощувка 1</p>
+<p class="ts">Паркинг в Унгария</p>
+</div>
+<div style="text-align:right;flex-shrink:0">
+<p class="t" style="font-weight:500;color:#0C447C">805 км</p>
+<a href="https://maps.app.goo.gl/ajFdG21rpxg1wpJD8" target="_blank" rel="noopener" class="navbtn">Отвори навигация</a>
+</div>
+</div>
+
+<div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:var(--surface-1);border-radius:var(--radius);border-left:3px solid #7F77DD">
+<div style="width:28px;height:28px;border-radius:50%;background:#534AB7;display:flex;align-items:center;justify-content:center;flex-shrink:0"><span class="t" style="font-size:12px;font-weight:500;color:#EEEDFE">2</span></div>
+<i class="ti ti-tent" aria-hidden="true" style="font-size:18px;color:#534AB7"></i>
+<div style="flex:1;min-width:0">
+<p class="t" style="font-weight:500">Нощувка 2</p>
+<p class="ts">Camp Pávov, Чехия</p>
+</div>
+<div style="text-align:right;flex-shrink:0">
+<p class="t" style="font-weight:500;color:#3C3489">522 км</p>
+<a href="https://maps.app.goo.gl/5cdm9QEiR1zFsn1R6" target="_blank" rel="noopener" class="navbtn">Отвори навигация</a>
+</div>
+</div>
+
+<div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:var(--surface-1);border-radius:var(--radius);border-left:3px solid #EF9F27">
+<div style="width:28px;height:28px;border-radius:50%;background:#854F0B;display:flex;align-items:center;justify-content:center;flex-shrink:0"><span class="t" style="font-size:12px;font-weight:500;color:#FAEEDA">3</span></div>
+<i class="ti ti-bed" aria-hidden="true" style="font-size:18px;color:#854F0B"></i>
+<div style="flex:1;min-width:0">
+<p class="t" style="font-weight:500">Нощувка 3</p>
+<p class="ts">Rasthof Berstetal, А13 (Германия)</p>
+</div>
+<div style="text-align:right;flex-shrink:0">
+<p class="t" style="font-weight:500;color:#633806">391 км</p>
+<a href="https://maps.app.goo.gl/L6hQxp8Df8DBLjwE6" target="_blank" rel="noopener" class="navbtn">Отвори навигация</a>
+</div>
+</div>
+
+<div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:var(--surface-1);border-radius:var(--radius);border-left:3px solid #1D9E75">
+<div style="width:28px;height:28px;border-radius:50%;background:#0F6E56;display:flex;align-items:center;justify-content:center;flex-shrink:0"><span class="t" style="font-size:12px;font-weight:500;color:#E1F5EE">4</span></div>
+<i class="ti ti-bed" aria-hidden="true" style="font-size:18px;color:#0F6E56"></i>
+<div style="flex:1;min-width:0">
+<p class="t" style="font-weight:500">Нощувка 4</p>
+<p class="ts">Паркинг до границата Германия–Дания</p>
+</div>
+<div style="text-align:right;flex-shrink:0">
+<p class="t" style="font-weight:500;color:#085041">527 км</p>
+<a href="https://maps.app.goo.gl/QoxXSa8ihakfDiRT9" target="_blank" rel="noopener" class="navbtn">Отвори навигация</a>
+</div>
+</div>
+
+<div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:var(--surface-1);border-radius:var(--radius);border-left:3px solid #E24B4A">
+<div style="width:28px;height:28px;border-radius:50%;background:#A32D2D;display:flex;align-items:center;justify-content:center;flex-shrink:0"><span class="t" style="font-size:12px;font-weight:500;color:#FCEBEB">5</span></div>
+<i class="ti ti-anchor" aria-hidden="true" style="font-size:18px;color:#A32D2D"></i>
+<div style="flex:1;min-width:0">
+<p class="t" style="font-weight:500">Нощувка 5</p>
+<p class="ts">Ферибот от Hirtshals, Дания</p>
+</div>
+<div style="text-align:right;flex-shrink:0">
+<p class="t" style="font-weight:500;color:#791F1F">370 км</p>
+<a href="https://maps.app.goo.gl/HmA7bXvU75NB7X1H9" target="_blank" rel="noopener" class="navbtn">Отвори навигация</a>
+</div>
+</div>
+
+<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 14px;background:var(--surface-1);border-radius:var(--radius);margin-top:6px">
+<div style="display:flex;align-items:center;gap:8px">
+<i class="ti ti-road" aria-hidden="true" style="font-size:18px;color:var(--text-secondary)"></i>
+<span class="ts">Общо разстояние до ферибота</span>
+</div>
+<span class="t" style="font-weight:500;font-size:18px">2 615 км</span>
+</div>
+
+</div>
+<p class="ts" style="margin-top:16px;text-align:center">Натисни „Отвори навигация“, за да заредиш съответната локация директно в Google Maps.</p>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script>
+const stops = [
+  {n:0, name:"Пловдив", lon:24.75, lat:42.15, color:"#888780"},
+  {n:1, name:"Унгария", lon:19.49, lat:46.62, color:"#185FA5"},
+  {n:2, name:"Camp Pávov", lon:15.60, lat:49.45, color:"#534AB7"},
+  {n:3, name:"Berstetal / А13", lon:13.75, lat:51.83, color:"#854F0B"},
+  {n:4, name:"Границата DE-DK", lon:9.33, lat:54.83, color:"#0F6E56"},
+  {n:5, name:"Hirtshals", lon:9.96, lat:57.59, color:"#A32D2D"}
+];
+const highlight = {"Bulgaria":1,"Hungary":1,"Czechia":1,"Germany":1,"Denmark":1};
+const W = 680, H = 640;
+const svg = d3.select("#map").append("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("width","100%").style("display","block");
+const focusPts = {type:"FeatureCollection", features: stops.map(s => ({type:"Feature", geometry:{type:"Point", coordinates:[s.lon,s.lat]}}))};
+const projection = d3.geoMercator().fitExtent([[30,30],[W-30,H-30]], focusPts);
+const pathGen = d3.geoPath(projection);
+d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json").then(world => {
+  const countries = topojson.feature(world, world.objects.countries).features;
+  svg.selectAll("path.country").data(countries).join("path")
+    .attr("class","country")
+    .attr("d", pathGen)
+    .attr("fill", d => highlight[d.properties.name] ? "#FAEEDA" : "#EFEDE4")
+    .attr("stroke", "#B4B2A9").attr("stroke-width", 0.6);
+  stops.forEach(s => { s.xy = projection([s.lon, s.lat]); });
+  const line = d3.line().x(d=>d.xy[0]).y(d=>d.xy[1]).curve(d3.curveCatmullRom.alpha(0.6));
+  for (let i=1;i<stops.length;i++){
+    svg.append("path").attr("d", line([stops[i-1], stops[i]]))
+      .attr("fill","none").attr("stroke", stops[i].color).attr("stroke-width",4).attr("stroke-linecap","round");
+  }
+  stops.forEach(s => {
+    const g = svg.append("g");
+    g.append("circle").attr("cx", s.xy[0]).attr("cy", s.xy[1]).attr("r",11)
+      .attr("fill", s.color).attr("stroke","#FFFFFF").attr("stroke-width",2.5);
+    g.append("text").attr("x", s.xy[0]).attr("y", s.xy[1]+4).attr("text-anchor","middle")
+      .attr("font-size",11).attr("font-weight",500).attr("fill","#FFFFFF").text(s.n);
+    const labelRight = s.xy[0] < W/2;
+    g.append("text").attr("x", s.xy[0] + (labelRight?16:-16)).attr("y", s.xy[1]+4)
+      .attr("text-anchor", labelRight?"start":"end").attr("font-size",12).attr("font-weight",500)
+      .attr("fill","#2C2C2A").text(s.name);
+  });
+});
+</script>
+</body>
+</html>
